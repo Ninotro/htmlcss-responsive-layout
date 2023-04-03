@@ -286,8 +286,70 @@ header .container {
     }
 } 
 
-     
-        
+/* Testimonials */
+
+#testimonials {
+    margin-top: 40px;
+}
+
+#testimonials-title {
+    text-align: center;
+}
+
+#testimonials-title h2 {
+    color: #9792e4 ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#testimonials-title p {
+    margin-bottom: 20px;
+}
+
+
+
+.card-testimonials {
+    background-color: #9792e4 ;
+    border-radius: 50px;
+    padding: 14px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+    
+
     
     
 
+
+
+.img-testimonials img {
+   width: 30vw;
+   height: 30vw;
+   border-radius: 50%;
+    
+    
+}
+
+     /* parte responsive testimonials  */
+
+     @media screen and (min-width:768px)  {
+        .card-testimonials { 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.7rem;
+      
+    
+    
+     }
+
+     .quote-autor {
+        text-align: left;
+        padding-left: 20px;
+     }
+    }
