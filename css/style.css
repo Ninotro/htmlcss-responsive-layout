@@ -144,6 +144,7 @@ header .container {
 /* parte responsive parte app */
 
 @media screen and (min-width:768px)  {
+
     #app-store .container {
         display: flex;
         justify-content: space-between;
@@ -159,6 +160,7 @@ header .container {
 
     .block {
         width: 30%;
+        font-size: 0.8rem;
     }
     
     .block.demo { 
@@ -178,6 +180,11 @@ header .container {
 } 
 
 @media screen and (min-width:1024px)  {
+    .container {
+        width:80%;
+        margin: 0 auto;
+    } 
+
     .block.demo {
         display:flex;
         flex-direction: row;
@@ -198,3 +205,89 @@ header .container {
     }
     
     }
+
+    /* starting plane */
+
+    #starting-plane {
+        background-color: #9792e4;
+
+    }
+
+    #starting-plane .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .immagine-starting-plane img {
+        max-width: 100%;
+    }
+
+    #app-developement {
+        background-color: white;
+        border-radius: 30px;
+        padding: 30px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #immage-text-starting {
+        padding: 30px 30px;
+        color: white;
+
+    }
+
+    #app-developement img {
+        max-width: 100%;
+    }
+
+    #starting-plane h2,img,p {
+        margin-bottom: 30px;
+        
+    }
+
+    .circle-button {
+        
+       
+        
+        background-color: #9792e4 ;
+        border-radius: 50%;
+        padding: 15px;
+        
+        
+    }
+/* Parte responsive parte strategic and app developer  */
+@media screen and (min-width:1024px)  {
+    #starting-plane .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 150px 0px;
+    }
+
+    #immage-text-starting {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        padding: 0;
+        
+        
+        
+    }
+
+    #app-developement {
+        width: 40%;
+        
+        margin-top: 20%
+
+        
+        
+    }
+} 
+
+     
+        
+    
+    
+
