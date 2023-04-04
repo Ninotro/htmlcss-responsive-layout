@@ -6,9 +6,7 @@
 
 }
 
-body {
-    width: 100vw;
-}
+
 /* header */
 header {
     background-color: #0084fd;
@@ -24,19 +22,33 @@ header {
     margin: 0 auto;
 }
 
-.logo img {
-    max-width: 100%;
+#logo img {
+   width: 100%;
+   height: 100%;
+   object-fit:contain
+   
 
 }
 
-.logo {
-    width: 20%;
+#logo {
+    width: 100px;
+    height: 70px;
+
+    
+    
+    
+    
+    
+   
+    
 }
 
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
 }
 
 
@@ -56,6 +68,7 @@ header .container {
         display: inline-block;
         font-size: 16px;
         margin-right: 5px;
+        
     
 }
 
@@ -319,15 +332,26 @@ header .container {
 }
 
 
-
+.img-testimonials {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    
+    
+    
+    
+}
 
 
 
 
    .img-testimonials img  {
-    width: 33vw;
-    height: 33vw;
-    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 999px;
+    
+    
    }
     
 
@@ -351,14 +375,23 @@ header .container {
             justify-content: space-between;
             align-items: center;
             font-size: 1.7rem;
-      
+
+                 
     
     
+     }
+
+     .img-testimonials {
+        
+        flex-shrink: 0;
      }
 
      .quote-autor {
         text-align: left;
         padding-left: 20px;
+        font-size: 0.8 rem
+        ;
+        width: 60%;
      }
     }
 
